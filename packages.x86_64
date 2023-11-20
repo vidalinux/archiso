@@ -1,7 +1,12 @@
-# base 
+# base
+arch-install-scripts
+archinstall
+base
+base-devel
 bolt
 brltty
 btrfs-progs
+ccid
 clonezilla
 cloud-init
 cryptsetup
@@ -24,10 +29,12 @@ gpart
 gptfdisk
 grml-zsh-config
 grub
+hwdata
 hdparm
 irssi
 iw
 iwd
+iproute2
 jfsutils
 kitty-terminfo
 less
@@ -122,7 +129,6 @@ net-tools
 b43-fwcutter
 broadcom-wl-dkms
 r8168
-linux-atm
 wireguard-tools
 wpa_supplicant
 networkmanager
@@ -142,6 +148,7 @@ dnsmasq
 dnsutils
 smbclient
 openssh
+libxml2
 lftp
 lsscsi
 mc
@@ -264,11 +271,12 @@ ipp-usb
 brlaser
 
 # kernel
-linux=6.5.9.arch2-1
-#linux-lts-headers
+linux
+linux-lts-headers
 linux-atm
 linux-firmware
 linux-firmware-marvell
+linux-firmware-whence
 
 # virtualization
 virtualbox-guest-utils-nox
@@ -340,6 +348,8 @@ lib32-pcre
 lib32-readline
 lib32-systemd
 lib32-tdb
+util-linux
+util-linux-libs
 lib32-util-linux
 lib32-wayland
 lib32-xz
@@ -387,12 +397,12 @@ qt5-translations
 boost
 kparts
 yajl
-base-devel
 os-prober
 xscreensaver
 
 # custom
 calamares-git=3.3.0.a3.r135.g29ef9e909-3
+calamares-settings
 #calamares-branding
 kgpg
 nomachine
