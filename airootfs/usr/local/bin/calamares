@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [[ ! -f /usr/lib/libyaml-cpp.so.0.7 ]];
+then
+sudo ln -s /usr/lib/libyaml-cpp.so.0.8.0 /usr/lib/libyaml-cpp.so.0.7
+fi
+
+pkexec /usr/bin/calamares

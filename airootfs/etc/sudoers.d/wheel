@@ -1,0 +1,2 @@
+%wheel ALL=(ALL) ALL
+Defaults timestamp_timeout = 0

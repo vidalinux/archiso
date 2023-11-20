@@ -1,0 +1,16 @@
+root:x:0:root
+sys:x:3:bin,archlive
+network:x:90:archlive
+power:x:98:archlive
+adm:x:999:archlive
+wheel:x:998:archlive
+uucp:x:987:archlive
+optical:x:990:archlive
+rfkill:x:983:archlive
+video:x:986:archlive
+storage:x:988:archlive
+audio:x:995:archlive
+users:x:985:archlive
+nopasswdlogin:x:966:archlive
+autologin:x:967:archlive
+archuser:x:1000:
