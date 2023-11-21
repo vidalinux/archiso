@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo "###################################"
+echo "Start calamares-final"
+echo "###################################"
+
+# fix locales for dmenu
+grep "LC_CTYPE" /etc/locale.conf && echo "Checking the LC_CYPE variable in /etc/locale.conf. Variable is already set." || grep "LANG=" /etc/locale.conf | sed 's/LANG=/LC_CTYPE=/g' | sudo tee -a /etc/locale.conf
+locale-gen
